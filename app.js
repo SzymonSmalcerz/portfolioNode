@@ -3,7 +3,7 @@ var hbs     = require("hbs");
 
 
 var app = express();
-const port = process.env.PORT || 5000;
+var port = process.env.PORT || 5000;
 
 hbs.registerPartials(__dirname + '/views/partials');
 
